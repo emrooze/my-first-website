@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#card-container{
+    width: 400px;
+    height: 200px;
+    background-color:burlywood;
+    display: flex;
+    background-image: url(../images/istockphoto-861263476-612x612.jpg);
+    filter: drop-shadow(0 0 10px black);
+}
+#picture-panel {
+width: 140px;
+height: 200px;
+/* background-color: steelblue;  */
+}
+#info-panel {
+width: 260px;
+height: 200px;
+background-color:lemonchiffon; 
+}
+#mugshot{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#text-panel{
+    width: 260px;
+    height: 200px;
+}
+h4{
+margin-top: 10px;
+margin-left: 10px;
+color:rgb(33, 78, 115);
+}
